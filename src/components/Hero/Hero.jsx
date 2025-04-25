@@ -13,7 +13,7 @@ function Hero () {
                     <h4>Hola, soy</h4>
                     <h2>Alberto Caminos</h2>
                     <p>Ayudo a emprendedores y negocios a tener presencia online con sitios web rápidos y fáciles de usar</p>
-                    <button>Quiero mi web</button>
+                    <a href="/#contact"><button>Quiero mi web</button></a>
                 </div>
 
                 <div className="hero-img">

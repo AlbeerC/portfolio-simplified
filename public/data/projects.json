@@ -1,32 +1,36 @@
 [
     {
         "id": 1,
-        "img": "/images/gympower.png",
-        "imgmobile": "/images/gympower.png",
-        "url": "https://gympower25.vercel.app/",
-        "title": "Gym power",
-        "text": "Sitio de un gimnasio con información básica de lugar"
-    },
-    {
-        "id": 2,
         "img": "/images/skullmaster.png",
         "imgmobile": "/images/skullmaster-mobile.png",
         "url": "https://skull-master.vercel.app/",
         "title": "Skull Master",
-        "text": "Sitio web de un estudio de tatuajes con formulario para consultas"
+        "subtitle": "Diseño de una landing page con enfoque visual",
+        "text": "Pensado para atraer clientes potenciales mostrando el estilo del estudio, con un formulario integrado para facilitar consultas directas"
+    },
+    {
+        "id": 2,
+        "img": "/images/gympower.png",
+        "imgmobile": "/images/gympower.png",
+        "url": "https://gympower25.vercel.app/",
+        "title": "Gym power",
+        "subtitle": "Sitio informativo para un gimnasio local",
+        "text": "Presenta los servicios, horarios, ubicación y datos de contacto de forma clara y accesible. Ideal para negocios que necesitan una presencia online simple pero efectiva"
     },
     {
         "id": 3,
         "img": "./images/cafedlc.png",
         "url": "https://albeerc.github.io/coffee-shop/",
         "title": "Café de la casa",
-        "text": "Sitio de una cafetería con el menú"
+        "subtitle": "Sitio web responsive para una cafetería",
+        "text": "Incluye secciones con imágenes, menú digital accesible desde el celular y detalles de ubicación. Un buen ejemplo de cómo una estética cuidada puede mejorar la experiencia del usuario"
     },
     {
         "id": 4,
         "img": "./images/dublin.png",
         "url": "https://dublin-f482a.web.app/",
         "title": "Dublín",
-        "text": "Restaurante con menú administrable desde un panel y sistema de reservas"
+        "subtitle": "Sitio web con funcionalidades avanzadas",
+        "text": "Desarrollado con panel de administración para actualizar el menú y un sistema de reservas online. Ideal para negocios que necesitan automatizar tareas y mejorar su atención al cliente"
     }
 ]
