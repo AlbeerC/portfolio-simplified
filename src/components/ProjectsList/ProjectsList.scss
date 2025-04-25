@@ -1,0 +1,23 @@
+@import '../../scss/variables';
+
+.projects {
+    background-color: $bgDark;
+    padding: 5rem 7rem;
+
+    @include responsive(tablet) {
+        padding:  2rem;
+    }
+
+    .projects-list {
+        padding-top: 2rem;
+        display: flex;
+        align-items: stretch;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        @include responsive(tablet) {
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px;
+    font-family: $textFont;
+    background-color: $bgDark;
+}
+h1, h2, h3 {
+    font-family: $titleFont;
+    font-weight: bold;
+}
+.section-title {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $lightBlue;
+
+    @include responsive(tablet) {
+        font-size: 2.7rem;
+        letter-spacing: 2px;
+    }
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+section[id] {
+    scroll-margin-top: 5rem;
+}
+
+header, section, footer {
+    @include responsive(giant) {
+        padding: 5rem 25rem !important;
+    }
+}
+
+.subtitle {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #ffffff;
+
+    @include responsive(tablet) {
+        max-width: 100%;
+        font-size: 1.5rem !important;
+        text-align: justify;
+    }
+}
