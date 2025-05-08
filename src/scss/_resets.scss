@@ -38,12 +38,21 @@ section[id] {
     scroll-margin-top: 5rem;
 }
 
-header, section, footer {
+/* header, section, footer {
     @include responsive(giant) {
         padding: 5rem 25rem !important;
     }
-}
+} */
 
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
+
+    @include responsive(tablet) {
+        padding: 0 2rem;
+    }
+}
+/* 
 .subtitle {
     max-width: 80%;
     margin: 0 auto;
@@ -57,4 +66,4 @@ header, section, footer {
         font-size: 1.5rem !important;
         text-align: justify;
     }
-}
+} */

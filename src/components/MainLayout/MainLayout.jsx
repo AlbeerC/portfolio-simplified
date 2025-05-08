@@ -1,10 +1,10 @@
-import Hero from '../Hero/Hero'
-import About from '../About/About'
-import ProjectsList from '../ProjectsList/ProjectsList'
-import Contact from '../Contact/Contact'
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react'
-import Services from '../Services/Services';
+
+import Landing from '../../components2/Landing/Landing'
+import Services from '../../components2/Services/Services'
+import Projects from '../../components2/Projects/Projects'
+import Contact from '../../components2/Contact/Contact'
 
 function MainLayout() {
 
@@ -23,10 +23,9 @@ function MainLayout() {
 
   return (
     <main>
-      <Hero />
-      <About />
+      <Landing />
       <Services />
-      <ProjectsList />
+      <Projects />
       <Contact />
     </main>
   );

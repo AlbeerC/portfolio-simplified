@@ -20,18 +20,20 @@ function Navbar () {
 
     return (
         <header>
-            <div className="nav-mobile">
-                <Link to='/' onClick={handleScrollToTop}><img src={logo} /></Link>
-                <button onClick={handleToggle}><FaBars className='hide toggle'/></button>
+            <div className="container">
+                <div className="nav-mobile">
+                    <Link to='/' onClick={handleScrollToTop}><img src={logo} /></Link>
+                    <button onClick={handleToggle}><FaBars className='hide toggle'/></button>
+                </div>
+                <nav className={showMenu ? 'show' : 'hide'}>
+                    <ul>
+                        <li><a href='/#home' className='active' onClick={handleScrollToTop}>Inicio</a></li>
+                        <li><a href="/#services" onClick={() => setShowMenu(false)}>Servicios</a></li>
+                        <li><a href="/#projects" onClick={() => setShowMenu(false)}>Proyectos</a></li>
+                        <li><Link to='/#contact' onClick={() => setShowMenu(false)}>Contacto</Link></li>
+                    </ul>
+                </nav>
             </div>
-            <nav className={showMenu ? 'show' : 'hide'}>
-                <ul>
-                    <li><a href='/#home' className='active' onClick={handleScrollToTop}>Inicio</a></li>
-                    <li><a href="/#services" onClick={() => setShowMenu(false)}>Servicios</a></li>
-                    <li><a href="/#projects" onClick={() => setShowMenu(false)}>Proyectos</a></li>
-                    <li><Link to='/#contact' onClick={() => setShowMenu(false)}>Contacto</Link></li>
-                </ul>
-            </nav>
         </header>
     )
 }

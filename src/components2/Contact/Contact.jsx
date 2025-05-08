@@ -3,8 +3,11 @@ import './Contact.scss'
 function Contact () {
 
     return (
-        <section className="contact" id='contact'>
-            <h2 className='section-title'>Contactame</h2>
+        <section className="contact container" id='contact'>
+            <div className="titles">
+                <h2>Contacto</h2>
+                <h3>Contacto</h3>
+            </div>
             <article className="flex">
                 <form action='https://formspree.io/f/mbldljzz' method='POST'>
                     <div className="field">
