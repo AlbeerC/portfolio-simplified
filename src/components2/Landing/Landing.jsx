@@ -7,7 +7,7 @@ function Landing() {
         <section className="landing container" id='home'>
             <h1>Desarrollo tu <span>sitio web</span></h1>
             <h3>Creo sitios rápidos, claros y pensados para que tus clientes te encuentren y te contacten sin complicaciones</h3>
-            <button>Ver proyectos</button>
+            <a href="#projects"><button>Ver proyectos</button></a>
             <Socials />
         </section>
     )
